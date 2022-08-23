@@ -1,15 +1,3 @@
-board = [
-    [8,0,0,0,0,3,1,0,4],
-    [0,0,0,0,0,0,0,7,0],
-    [0,0,9,2,0,0,0,0,0],
-    [4,0,0,0,0,1,6,0,3],
-    [0,0,0,0,0,0,0,0,5],
-    [0,8,0,0,4,0,0,0,0],
-    [0,2,0,3,0,0,7,0,6],
-    [6,0,0,0,0,0,0,5,0],
-    [0,0,0,0,0,7,0,8,0]
-]
-
 def solveBoard(board):
     find = findEmpty(board)
     if not find:
@@ -70,8 +58,8 @@ def findEmpty(board):
             if board[i][j] == 0:
                 return (i, j) # row, col
 
-printBoard(board)
-solveBoard(board)
-print("___________________")
-printBoard(board)
+# printBoard(board)
+# solveBoard(board)
+# print("___________________")
+# printBoard(board)
             
